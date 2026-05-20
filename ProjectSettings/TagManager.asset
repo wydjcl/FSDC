@@ -10,6 +10,7 @@ TagManager:
   - CharacterImage
   - MainUI
   - ItemBox
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -49,6 +50,18 @@ TagManager:
     locked: 0
   - name: Back
     uniqueID: 2386362075
+    locked: 0
+  - name: Room
+    uniqueID: 1997264869
+    locked: 0
+  - name: Character
+    uniqueID: 1984362865
+    locked: 0
+  - name: Chest
+    uniqueID: 1820609033
+    locked: 0
+  - name: Shadow
+    uniqueID: 1155760819
     locked: 0
   - name: Front
     uniqueID: 2074954075

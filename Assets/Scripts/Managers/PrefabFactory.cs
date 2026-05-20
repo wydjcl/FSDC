@@ -9,6 +9,7 @@ public class PrefabFactory : MonoBehaviour
     public static PrefabFactory Instance;
     //public NetworkObject PlayerInstancePrefab;
     public GameObject PlayerConnInLobbyPrefab;
+    public NetworkObject chestPrefab;
     private void Awake()
     {
         Instance = this;

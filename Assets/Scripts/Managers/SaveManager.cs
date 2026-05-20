@@ -16,11 +16,10 @@ public class SaveManager : SingletonMono<SaveManager>
     [ContextMenu("保存数据")]
     public void SaveTest()
     {
-        return;
         Debug.Log("保存成功");
         SaveData.Instance.data.tip = tip;
         SaveData.Instance.data.version = version;
-        //SaveData.Instance.ConvertData();
+        SaveData.Instance.ConvertData();
         Save(SaveData.Instance.data, 0);
     }
     [ContextMenu("读取数据")]

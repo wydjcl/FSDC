@@ -13,10 +13,12 @@ using UnityEngine;
 /// </summary>
 public class GameManager : MonoBehaviour
 {
+    public CardLayout cardLayout;
     public static GameManager Instance;
     private void Awake()
     {
         Instance = this;
+        DOTween.SetTweensCapacity(500, 200);
     }
 
 }

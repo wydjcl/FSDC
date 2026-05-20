@@ -120,3 +120,11 @@ public enum CameraType
     Battle,
     Map,
 }
+
+public enum BagType
+{
+    Battle,
+    Chest,
+    Warehouse,
+    Shop,
+}

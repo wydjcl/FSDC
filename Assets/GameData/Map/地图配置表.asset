@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d21e472f952e2c42808d9054e1d4f76, type: 3}
+  m_Name: "\u5730\u56FE\u914D\u7F6E\u8868"
+  m_EditorClassIdentifier: 
+  normalList: []
+  jingyingList: []
+  BossList: []
+  mapitemsLists:
+  - mapitemsList:
+    - itemData: {fileID: 11400000, guid: 6e51e0f004a9e074d83071d53114c1a2, type: 2}
+      minDropNum: 1
+      maxDropNum: 1
+      dropRate: 1
+    weight: 1
+  - mapitemsList:
+    - itemData: {fileID: 11400000, guid: 6e51e0f004a9e074d83071d53114c1a2, type: 2}
+      minDropNum: 1
+      maxDropNum: 1
+      dropRate: 1
+    - itemData: {fileID: 11400000, guid: 6e51e0f004a9e074d83071d53114c1a2, type: 2}
+      minDropNum: 1
+      maxDropNum: 1
+      dropRate: 1
+    weight: 1
+  - mapitemsList:
+    - itemData: {fileID: 11400000, guid: 5fcc678e1f4c40e48be855488ddead2c, type: 2}
+      minDropNum: 3
+      maxDropNum: 6
+      dropRate: 1
+    weight: 1
+  - mapitemsList:
+    - itemData: {fileID: 11400000, guid: c14872c901b9acd4cb0fd222153eb33b, type: 2}
+      minDropNum: 3
+      maxDropNum: 6
+      dropRate: 1
+    weight: 1
+  - mapitemsList:
+    - itemData: {fileID: 11400000, guid: 5fcc678e1f4c40e48be855488ddead2c, type: 2}
+      minDropNum: 3
+      maxDropNum: 6
+      dropRate: 1
+    - itemData: {fileID: 11400000, guid: c14872c901b9acd4cb0fd222153eb33b, type: 2}
+      minDropNum: 3
+      maxDropNum: 6
+      dropRate: 1
+    weight: 1
+  - mapitemsList:
+    - itemData: {fileID: 11400000, guid: 5fcc678e1f4c40e48be855488ddead2c, type: 2}
+      minDropNum: 3
+      maxDropNum: 6
+      dropRate: 1
+    - itemData: {fileID: 11400000, guid: c14872c901b9acd4cb0fd222153eb33b, type: 2}
+      minDropNum: 3
+      maxDropNum: 6
+      dropRate: 1
+    weight: 1

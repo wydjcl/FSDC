@@ -10,8 +10,8 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/MainScene.unity
-    guid: 120c196ec19167e4682752f03abd9caf
+    guid: ad9df925ca99eed4282fea5e484e09e1
   - enabled: 1
     path: Assets/Scenes/BattleScene.unity
-    guid: b4d3b89cdf062034aa87b1dfadeba1b7
+    guid: a0c8e4bb2f839cb4bb32dfc3c2c626a9
   m_configObjects: {}

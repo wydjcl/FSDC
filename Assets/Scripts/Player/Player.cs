@@ -7,6 +7,7 @@ using UnityEngine;
 public class Player : NetworkBehaviour
 {
     public PlayerConnInLobby playerConnInLobby;
+    public PlayerInstance playerInstance;
     private float pingTimer;
     public readonly SyncVar<string> playerName = new SyncVar<string>();
     //public readonly SyncVar<Room> currentRoom = new SyncVar<string>();

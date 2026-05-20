@@ -313,27 +313,33 @@ public class SaveData : SingletonMono<SaveData>
     //}
 
 
-    //public void ConvertData()
-    //{
-    //    data.bag.Clear();
-    //    data.warehouse.Clear();
-    //    foreach (PropBox box in BagUI.Instance.bagBoxes)
-    //    {
-    //        items newitems = new items();
-    //        newitems.propName = box.items.propName;
-    //        newitems.amount = box.items.amount;
-    //        newitems.index = box.index;
-    //        data.bag.Add(newitems);
-    //    }
-    //    foreach (PropBox box in BagUI.Instance.wareHouseBoxes)
-    //    {
-    //        items newitems = new items();
-    //        newitems.propName = box.items.propName;
-    //        newitems.amount = box.items.amount;
-    //        newitems.index = box.index;
-    //        data.warehouse.Add(newitems);
-    //    }
-    //}
+    public void ConvertData()
+    {
+        data.bag.Clear();
+        data.warehouse.Clear();
+        foreach (ItemBox box in BagUI.Instance.bagBoxes)
+        {
+            if (box.HaveItem())
+            {
+                Items newitems = new Items();
+                newitems.itemName = box.items.itemName;
+                newitems.amount = box.items.amount;
+                newitems.index = box.items.index;
+                data.bag.Add(newitems);
+            }
+        }
+        foreach (ItemBox box in BagUI.Instance.warehouseBoxes)
+        {
+            if (box.HaveItem())
+            {
+                Items newitems = new Items();
+                newitems.itemName = box.items.itemName;
+                newitems.amount = box.items.amount;
+                newitems.index = box.items.index;
+                data.warehouse.Add(newitems);
+            }
+        }
+    }
 
 
     //[ContextMenu("测试整理仓库")]

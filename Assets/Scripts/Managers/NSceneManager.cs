@@ -67,17 +67,18 @@ public class NSceneManager : NetworkBehaviour
     public void LoadMainScene()
     {
         Debug.Log("开启主场景");
-        //LoadGlobalScene("MainScene", () => { DisableInitialUIRoot(); });
+        LoadGlobalScene("MainScene", () => { DisableInitialUIRoot(); });
     }
     [ObserversRpc]
     public void DisableInitialUIRoot()
     {
         InitialSceneUIManager.Instance.root.SetActive(false);
     }
-
+    [ObserversRpc]
     public void DisableMainUIRoot()
     {
-        // MainSceneManager.Instance.mainUI.SetActive(false);
+        MainUIManager.Instance.root.SetActive(false);
+        BagUI.Instance.root.SetActive(false);
     }
 
 }
